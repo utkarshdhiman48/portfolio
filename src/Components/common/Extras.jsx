@@ -14,6 +14,6 @@ export default function Extras(props) {
   }
   return (<div className="stuff">
     {generateSection(require("../../Assets/images/stain.jpg").default, "Stain theme for VS Code", "I tried various themes over the marketplace some too colorful, others too dark or with a little contrast. I created my theme which is neither too dull nor too bright.", [{ to: "https://github.com/utkarsh48/stain-theme-vscode", label: "Github" }])}
-    {generateSection(require("../../Assets/images/legacy.jpg").default, "Legacy Portfolio", "I no longer maintain that version of portfolio. It had some cool design, features and some redundant content.", [{to: "https://bit.ly/ut-legacy-portfolio", label: "Check it out!"}])}
+    {generateSection(require("../../Assets/images/legacy.jpg").default, "Legacy Portfolio", "I no longer maintain that version of portfolio. It had some cool design, features and some redundant content.", [{to: "https://bit.ly/ut-portfolio-legacy", label: "Check it out!"}])}
   </div>);
 }
