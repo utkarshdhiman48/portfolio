@@ -15,12 +15,3 @@
 .contact-item:hover{
   transform: scale(1.1) rotateZ(5deg);
 }
-
-@media all and (max-width: 480px){
-  .contact{
-    grid-template-columns: 1fr 1fr;
-  }
-  .contact-item{
-    padding: 1rem;
-  }
-}

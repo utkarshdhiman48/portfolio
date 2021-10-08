@@ -22,7 +22,7 @@ export default function Home(props) {
       <header className="home-header">
         <article className="home-left profile-section">
           <picture className="profile-img-container">
-              <img src={Ut} className="profile-img fade-appear-01" alt="profile" />
+              <img src={Ut} className="profile-img" alt="profile" />
           </picture>
           <section className="profile-content">
             <h1 className="name">Utkarsh Dhiman</h1>

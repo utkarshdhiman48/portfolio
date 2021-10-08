@@ -34,7 +34,7 @@ class InternetObject{
   
 const projects = [];
 
-projects.push(new InternetObject("remindit-48-bot", [{to:"https://github.com/utkarsh48/remindit48_bot", label: "Repository"}], "It is a telegram bot to set reminders and receive them at 12 am IST on the day of the reminder. All you have to do is /start the bot and /add a reminder. It sends a notification as a 'message'. So it stays in the notifications as well as chat.", ["Node", "Express", "JavaScript"]));
+projects.push(new InternetObject("remindit-48-bot", [{to:"https://github.com/utkarsh48/remindit48_bot", label: "Repository"}], "It is a telegram bot to set reminders and receive them at 12 am IST on the day of the reminder. All you have to do is /start the bot and /add a reminder. It sends a notification as a 'message'. So it stays in the notifications as well as chat.", ["Node", "Express", "JavaScript", "Firebase"]));
 projects.push(new InternetObject("scrollSpy", [{to: "", label: "Open"}, {to:"/y", label: "Repository"}], "A script that can spy for internal links present within the viewport and correspondingly add a CSS class to its pointer link. It works without any dependencies like jQuery.", ["JavaScript"]));
 projects.push(new InternetObject("Meme Generator", [{to: "https://utkarsh48.github.io/meme-generator", label: "Open"}, {to:"https://github.com/utkarsh48/meme-generator", label: "Repository"}], "A simple meme generator using Canvas.", ["HTML", "CSS", "JavaScript"]));
 projects.push(new InternetObject("theExecryptioner", [{to:"https://github.com/utkarsh48/theExecryptioner", label: "Repository"}], "A chrome extension for encrypting text, text files and vice-versa.", ["HTML", "CSS", "JavaScript"]));
