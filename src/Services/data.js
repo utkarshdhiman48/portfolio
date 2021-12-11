@@ -62,8 +62,8 @@ projects.push(
   new InternetObject(
     "PublicNote",
     [
-      { to: "https://github.com/utkarsh48/PublicNote", label: "Repository" },
       { to: "https://publicnote.herokuapp.com/", label: "Open" },
+      { to: "https://github.com/utkarsh48/PublicNote", label: "Repository" },
     ],
     "A simple note taking app, that can create notes over the web without the need to sign in.",
     ["MongoDB", "EJS", "JavaScript", "Express", "Node"]
